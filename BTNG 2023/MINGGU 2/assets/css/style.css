@@ -1,0 +1,104 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+   
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.5)
+}
+
+.navbar > h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.nav-menu{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    display: flex;
+    font-weight: bold;
+    gap: 30px;
+    list-style: none;
+    cursor: pointer;
+    
+    
+}
+.MenuUtama {
+    height: 650px;
+    
+    padding: 0 10%;
+    display: flex;
+}
+.MenuUtama p {
+    font-size: 20px;
+    font-style: inherit;
+}
+.MenuUtama > div {
+    width: 50%;
+    align-self: center;
+}
+.MenuUtama > img {
+    width: 50%;
+    align-self: center;
+    
+}
+.MenuUtama > div h1 {
+    font-size: 60px;
+}
+
+.penjelasan {
+    height: 350px;
+    width: 200 px;
+    padding: 10% 10%;
+    background-color: black;
+}
+.penjelasan div {
+    padding: 0;
+    color: aliceblue;
+    width: 60%;
+    float: right;
+    align-self: center;
+}
+.penjelasan img {
+    width: 30%;
+    align-self: center;
+    float: left;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.90)
+    
+}
+.penjelasan h1  {
+    
+    font-size: 50px;
+}
+.penjelasan p {
+    font-size: 20px;
+}
+
+.catalog {
+    height: 350px;
+    width: 200 px;
+    padding: 5% 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.catalog h1 {
+    font-size: 50px;
+}
+
+.catalog div {
+    size: 50px;
+    display: flex;
+    margin: auto;
+    float: right;
+    
+}
